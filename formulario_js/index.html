@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário com JavaScript</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Contact Us</h1>
+
+        <label class="nome" for="nome">First Name</label> 
+        <input class="nome" type="text">
+        <label class="sobrenome" for="sobrenome">Last Name</label> *
+        <input class="last" type="text">
+
+        <label class="email" for="email">Email Address</label>
+        <input class="c-email" type="email">
+
+
+        
+            <label class="tipe" for="query-type">Query Type</label> *
+            <input type="radio" id="general" name="drone" value="general" checked />
+            <label for="general">General Enquiry</label>
+          
+        
+          
+            <input type="radio" id="support" name="drone" value="support" />
+            <label for="support">Support Request</label>
+          
+
+          <label class="message" for="message">Message</label>
+          <input class="mensagem" type="text">
+
+            <input class="termo" type="checkbox" id="termo-condicao" name="termo-condicao" checked />
+            <label class="termo" for="scales">I consent to being contacted by the team</label> *
+          
+
+          <button class="botao"> Submit</button>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

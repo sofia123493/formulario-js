@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Outfit:wght@100..900&display=swap');
+
+*{
+    font-family: "Karla", sans-serif;
+}
+
+:root{
+
+/* Colors*/
+
+/* Primary*/
+
+--Green-200: hsl(148, 38%, 91%); /*(lighter)*/
+--Green-600: hsl(169, 82%, 27%); /* (medium)*/
+--Red: hsl(0, 66%, 54%); 
+
+/* Neutral */
+
+--White: hsl(0, 0%, 100%);
+--Grey-500: hsl(186, 15%, 59%); /*(medium)*/
+--Grey-900: hsl(187, 24%, 22%); /*(darker)*/
+}
+
+body{
+    background-color: var(--Green-200);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--White);
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    padding-top: 150px;
+
+    width: 384px;
+    position: relative;
+    left: 556px;
+    top: 115px;
+    cursor: move;
+    border-radius: 8px;
+
+}
+
+h1{
+    position: relative;
+    left: -271px;
+    top: -146px;
+    transition: none;
+    cursor: move;
+}
+.nome{
+    width: 87.109px;
+    position: relative;
+    left: -308px;
+    top: -132px;
+    transition: none;
+    cursor: move;
+}
+.botao{
+    background-color: var(--Green-600);
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 250px;
+    padding-left: 250px;
+    color: var(--White);
+    border-color: var(--Green-600);
+    height: 40px;
+    transform: translate(0px, 166px);
+    width: 700.484px;
+
+}
+.nome{
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 293.094px;
+    transform: translate(106px, -2px);
+    height: 17px;
+    width: 320.094px;
+    transform: translate(119px, -2px);
+}
+
+.sobrenome{
+
+    height: 19px;
+    transform: translate(0px, -197px);
+
+    width: 191.438px;
+    transform: translate(92px, -197px);
+}
+.last{
+    height: 16px;
+    transform: translate(158px, -203px);
+    width: 382px;
+
+    width: 362px;
+    transform: translate(178px, -206px);
+    height: 27px;
+}
+.email{
+    height: 21px;
+    transform: translate(-201px, -173px);
+    width: 305.797px;
+}
+.c-email{
+    height: 31px;
+    transform: translate(2px, -155px);
+    width: 701px;
+}
+.tipe{
+    height: 25px;
+    transform: translate(-206px, -126px);
+    width: 283.156px;
+}
